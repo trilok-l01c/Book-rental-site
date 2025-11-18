@@ -1,0 +1,25 @@
+/* Reseting css */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: calc(100vh + 500px);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(25, 156, 156, 50%);
+}
