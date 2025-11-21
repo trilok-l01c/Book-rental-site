@@ -11,26 +11,37 @@
         <header>
             <!-- Navbar -->
             <nav>
-                <img src="assets/logo.png" alt="Logo" height="70" />
+                <img
+                    class="nav-logo"
+                    src="assets/logo.png"
+                    alt="Logo"
+                    height="70"
+                />
                 <h1 class="icon-title">Book Rentals</h1>
                 <p class="icon-author">
                     by
                     <a href="https://github.com/trilok-l01c"
-                        ><em>Devansh Lodha</em></a
+                         target="_blank"><em>Devansh Lodha</em></a
                     >
                 </p>
                 <div class="links">
                     <ul class="nav-list">
                         <li>
-                            <a href="https://3-lokie.blogspot.com/">Blog</a>
+                            <a href="https://3-lokie.blogspot.com/" target="_blank">Blog</a>
                         </li>
-                        <li><a href="#">Genres</a></li>
+                        <li><a href="#genres">Genres</a></li>
                         <li><a href="#">Collection</a></li>
                         <li><a href="#">About me</a></li>
                     </ul>
                 </div>
             </nav>
-            <h1 class="hero-title">Build mental models</h1>
+            <h1 class="hero-title">To Become Smarter<br>
+                                To Build Mental Models<br>
+                                To Keep learning new things<br>
+                                To Make Your Life happier<br>
+                                Read books, lots of books<br>
+                                Rent them cheaply, don't bother buying them.
+            </h1>
             <!-- Books on hero bottom -->
             <div class="hero-books-bg">
                 <div class="book1">
@@ -68,22 +79,37 @@
         <!-- Main section -->
         <main>
             <!-- panels for shwoing books -->
-            <div class="panels-con">
+            <div id="genres" class="panels-con">
                 <div class="panels">
-                    <div class="panel active">
+                    <div class="panel active" data-genre="Spiritual">
                         <h1>Bhagwat Geeta</h1>
                     </div>
-                    <div class="panel">
+                    <div class="panel" data-genre="Strategy">
                         <h1>48 laws of power</h1>
                     </div>
-                    <div class="panel">
+                    <div class="panel" data-genre="Self-Help">
                         <h1>Atomic Habits</h1>
                     </div>
-                    <div class="panel">
+                    <div class="panel" data-genre="Mindfulness">
                         <h1>Stillness is the key</h1>
                     </div>
-                    <div class="panel">
+                    <div class="panel" data-genre="Entrepreneurship">
+                        <h1>Almanack of Naval Ravikant</h1>
+                    </div>
+                    <div class="panel" data-genre="Politics">
+                        <h1>Chanakya Niti</h1>
+                    </div>
+                    <div class="panel" data-genre="Memoir">
+                        <h1>Man's search for meaning</h1>
+                    </div>
+                    <div class="panel" data-genre="Finance">
+                        <h1>Rich Dad Poor Dad</h1>
+                    </div>
+                    <div class="panel" data-genre="History">
                         <h1>Sapiens</h1>
+                    </div>
+                    <div class="panel" data-genre="Risk">
+                        <h1>Black Swan</h1>
                     </div>
                 </div>
             </div>
