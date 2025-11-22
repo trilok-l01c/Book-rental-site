@@ -449,10 +449,20 @@ main {
     min-height: 100vh;
     background-color: var(--sec-bg);
 }
+
+/* Collections */
+.collections {
+    min-height: 100vh;
+    background-color: var(--sec-bg);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
 /* Book show case */
 .panels-con {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh + 30px);
     padding: 0 40px;
     display: flex;
     justify-content: center;
@@ -493,11 +503,7 @@ main {
     text-align: center;
     font: 600 0.5rem "Oswald", sans-serif;
     text-transform: uppercase;
-    color: var(--h1-clr);
-    background-color: var(--sec-bg);
-    padding: 8px 10px;
-    margin-bottom: 35px;
-    border-radius: 10px;
+    color: var(--sec-bg);
     opacity: 0;
     filter: blur(4px);
 }
