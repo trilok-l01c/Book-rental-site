@@ -503,7 +503,11 @@ main {
     text-align: center;
     font: 600 0.5rem "Oswald", sans-serif;
     text-transform: uppercase;
-    color: var(--sec-bg);
+    color: var(--h1-clr);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: var(--sunlit-clay);
     opacity: 0;
     filter: blur(4px);
 }
